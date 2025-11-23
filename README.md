@@ -1,16 +1,45 @@
-# React + Vite
+# 🌦️ Weather App (React + Vite + TailwindCSS)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A modern and responsive **Weather Application** built using **React (Vite)**, **TailwindCSS**, and the **OpenWeatherMap API**.
 
-Currently, two official plugins are available:
+Users can search for any city and get real-time weather details such as:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- 🌡️ Temperature  
+- 🌤️ Weather description & icon  
+- 💨 Wind speed  
+- 💧 Humidity  
+- 🎚️ Pressure  
+- 😎 Feels like temperature  
 
-## React Compiler
+The app features a **full-screen looping video background** and a dark translucent card UI for readability.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+---
 
-## Expanding the ESLint configuration
+## 🚀 Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- Search weather by city name  
+- Real-time weather data (OpenWeatherMap API)  
+- Loading & error handling  
+- Clean UI with TailwindCSS  
+- Background video effect  
+- Fully responsive  
+- Modular components (SearchBar, WeatherCard)
+
+---
+
+## 📦 Tech Stack
+
+| Tool | Purpose |
+|------|---------|
+| **React (Vite)** | Frontend framework |
+| **TailwindCSS** | Styling |
+| **Axios** | API requests |
+| **OpenWeatherMap API** | Weather data |
+| **MP4 Background Video** | UI effect |
+
+---
+
+## 🔑 API Setup
+
+Create a `.env` file in the project root:
+
